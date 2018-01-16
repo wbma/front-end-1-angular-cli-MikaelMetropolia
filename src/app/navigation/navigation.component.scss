@@ -4,7 +4,7 @@
 
 nav {
   display: flex;
-  background-color: #ff69b4;
+  background-color: #545454;
 }
 
 .nav-box {
@@ -20,4 +20,10 @@ li {
   display: inline-block;
   font-size: 25px;
   margin-right: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+li:hover {
+background-color: #4b494b;
 }
