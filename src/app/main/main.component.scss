@@ -1,0 +1,26 @@
+:host {
+  width: 100%;
+}
+main {
+  display: flex;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 250px;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+
+#main-content {
+  flex: 0 0 50%;
+  background-color: #73ba37;
+  height: 250px;
+  margin-left: 10%;
+  margin-right: 2%;
+}
+
+#side-bar {
+  flex: 0 0 25%;
+  height: 250px;
+  background-color: #ffd700;
+}
